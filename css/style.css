@@ -18,6 +18,21 @@ img {
 #petresort {
   grid-column: 2;
 }
+.header {
+  display: flex;
+  justify-content: start;
+}
+
+.menu {
+  display: flex;
+  justify-content: end;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
 
 .happydog {
   background-image: url("../img/happiest-dog.webp");
