@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  display: grid;
+  width: 1200px;
+  grid-template-columns: 1fr 10fr;
+}
+#petresort {
+  grid-column: 2;
+}
+
+.happydog {
+  background-image: url("../img/happiest-dog.webp");
+  height: 600px;
+  display: flex;
+}
+
+.whitetext {
+  color: white;
+  align-self: flex-end;
+}
