@@ -4,6 +4,8 @@
 
 body {
   background-color: #eee;
+  display: flex;
+  justify-content: center;
 }
 
 img {
@@ -11,21 +13,17 @@ img {
 }
 
 .container {
-  display: grid;
   width: 1200px;
-  grid-template-columns: 1fr 10fr;
 }
-#petresort {
-  grid-column: 2;
-}
+
 .header {
   display: flex;
-  justify-content: start;
 }
 
 .menu {
   display: flex;
   justify-content: end;
+  list-style: none;
 }
 a {
   display: block;
@@ -36,11 +34,21 @@ a {
 
 .happydog {
   background-image: url("../img/happiest-dog.webp");
+  border-radius: 10px;
   height: 600px;
-  display: flex;
+}
+
+.royalty {
+  display: grid;
+  grid-template-rows: 10fr 1fr 1fr 1fr 1fr;
 }
 
 .whitetext {
   color: white;
-  align-self: flex-end;
+}
+
+.og {
+  background-color: white;
+  height: 300px;
+  display: grid;
 }
