@@ -52,7 +52,7 @@ img {
 .bottom3 {
   display: grid;
   grid-template-areas: 
-  "og . . part" 
+  "og og og part" 
   "merch bfl fd part"
   ". . . part"
 }
@@ -61,8 +61,9 @@ img {
   background-color: white;
   height: 300px;
   display: grid;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
   border-radius: 20px;
   padding: 20px;
   grid-area: og;
@@ -75,6 +76,7 @@ img {
   border-radius: 20px;
   width: 300px;
   grid-area: merch;
+  margin-right: 10px;
 }
 
 .bfl {
@@ -84,6 +86,7 @@ img {
   border-radius: 20px;
   width: 300px;
   grid-area: bfl;
+  margin-right: 10px;
 }
 
 .fd {
@@ -93,6 +96,7 @@ img {
   border-radius: 20px;
   width: 300px;
   grid-area: fd;
+  margin-right: 10px;
 }
 
 .partners {
