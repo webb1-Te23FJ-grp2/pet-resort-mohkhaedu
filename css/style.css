@@ -10,6 +10,7 @@ body {
 
 img {
   display: block;
+  border-radius: 20px;
 }
 
 .container {
@@ -25,7 +26,7 @@ img {
   justify-content: end;
   list-style: none;
 }
-a {
+.a {
   display: block;
   text-decoration: none;
   color: black;
@@ -34,21 +35,70 @@ a {
 
 .happydog {
   background-image: url("../img/happiest-dog.webp");
-  border-radius: 10px;
+  border-radius: 20px;
   height: 600px;
+  display: flex;
+  align-items: end;
 }
 
 .royalty {
-  display: grid;
-  grid-template-rows: 10fr 1fr 1fr 1fr 1fr;
+  margin: 20px;
 }
 
 .whitetext {
   color: white;
 }
 
+.bottom3 {
+  display: grid;
+  grid-template-areas: 
+  "og . . part" 
+  "merch bfl fd part"
+  ". . . part"
+}
+
 .og {
   background-color: white;
   height: 300px;
   display: grid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  grid-area: og;
+}
+
+.merch {
+  background-color: white;
+  display: grid;
+  padding: 20px;
+  border-radius: 20px;
+  width: 300px;
+  grid-area: merch;
+}
+
+.bfl {
+  background-color: white;
+  display: grid;
+  padding: 20px;
+  border-radius: 20px;
+  width: 300px;
+  grid-area: bfl;
+}
+
+.fd {
+  background-color: white;
+  display: grid;
+  padding: 20px;
+  border-radius: 20px;
+  width: 300px;
+  grid-area: fd;
+}
+
+.partners {
+  background-color: white;
+  display: grid;
+  padding: 20px;
+  border-radius: 20px;
+  grid-area: part;
 }
